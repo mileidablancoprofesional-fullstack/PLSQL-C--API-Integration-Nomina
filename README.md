@@ -11,7 +11,7 @@ Este repositorio contiene una Prueba de Concepto (PoC) que ilustra la arquitectu
 
 **Solución:** Se diseñó una solución Full Stack orientada al *Backend* que garantiza la **integridad transaccional** y la **velocidad de procesamiento** mediante la integración de múltiples tecnologías optimizadas.
 
-## 📈 Impacto y Resultados Clave
+## Impacto y Resultados Clave
 
 El objetivo principal de esta arquitectura era asegurar la precisión y eliminar la fricción operativa.
 
@@ -21,20 +21,20 @@ El objetivo principal de esta arquitectura era asegurar la precisión y eliminar
 | **Intervención Manual** | Requerida por cada novedad | **Eliminada por completo** | Ahorro significativo de tiempo |
 | **Riesgo de Errores** | Alto | Mínimo (Lógica de DB) | Reducción de errores |
 
-## 📐 Diagrama de Arquitectura (La Columna Vertebral)
+## Diagrama de Arquitectura 
 
 ****
 
 **Flujo Crítico Demostrado:**
 
-1.  **Frontend/UI (Simulado):** El usuario aprueba una novedad. Envía un *request* a la API.
+1.  **Frontend/UI :** El usuario aprueba una novedad. Envía un *request* a la API.
 2.  **Capa de Orquestación (PHP Framework API):** Recibe la petición, valida y gestiona la llamada al motor de cálculo.
 3.  **Motor de Alto Rendimiento (C++ con Threads):** Se invoca la lógica de C++ para gestionar la concurrencia y los cálculos intensivos.
 4.  **Capa Transaccional (Oracle Database / PL/SQL):** El C++ o la API invoca un **Stored Procedure PL/SQL**. Este procedimiento ejecuta el recálculo y asegura el **commit atómico** de los nuevos saldos.
 
 Frontend -> API (PHP) -> Módulo C++ (Threads) -> Oracle DB (PL/SQL)
 
-## 🛠️ Stack Tecnológico Demostrado
+## 🛠️ Stack Tecnológico 
 
 | Capa | Tecnología | Propósito Específico |
 | :--- | :--- | :--- |
@@ -45,9 +45,9 @@ Frontend -> API (PHP) -> Módulo C++ (Threads) -> Oracle DB (PL/SQL)
 | **Herramientas** | Visual Studio | Entorno utilizado para el desarrollo y *build* del módulo C++. |
 
 Métricas : Impacto de 99% en la Precisión y Eliminación de Intervención Manual.
-Tecnologías Utilizadas: (Oracle, PHP, C++, Threads, PL/SQL).
+Tecnologías Utilizadas: (Oracle, API, PHP, C++, Threads, PL/SQL).
 
-## 🧩 (Proof of Concept)
+## (Proof of Concept)
 
 A continuación, se encuentran fragmentos de código que ilustran cómo se maneja la complejidad en cada capa.
 
@@ -63,7 +63,7 @@ Se Incluye un archivo con el PROCEDURE  que muestra cómo recibe parámetros y r
 
 Se Incluye un fragmento de código PHP que muestra el *endpoint* que recibe el *request* y cómo llama/ejecuta la lógica C++ o el Stored Procedure, manejando posibles errores
 
-## 🚀 Instalación y Ejecución (PoC)
+## Instalación y Ejecución (PoC)
 
 Este proyecto está diseñado para ser una demo. Siga los pasos a continuación para simular el flujo:
 
