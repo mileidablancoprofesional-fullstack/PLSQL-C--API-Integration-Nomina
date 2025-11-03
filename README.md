@@ -74,7 +74,7 @@ Este proyecto está diseñado para ser una demo. Siga los pasos a continuación 
 
 ---
 
-## 👨‍💻 Acerca del Desarrollador
+## Acerca del Desarrollador
 
 Mileida Yenitza Blanco Herrera - Desarrollador Full Stack con enfoque en rendimiento y arquitecturas de Backend críticas.
 * [Tu Perfil de LinkedIn] : https://www.linkedin.com/in/mileida-blanco-53059b164/
