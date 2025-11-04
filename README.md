@@ -67,7 +67,7 @@ Se Incluye un fragmento de código PHP que muestra el *endpoint* que recibe el *
 
 Este proyecto está diseñado para ser una demo. Siga los pasos a continuación para simular el flujo:
 
-1. Clonar el repositorio: `git clone https://docs.github.com/en/repositories/creating-and-managing-repositories/deleting-a-repository`
+1. Clonar el repositorio: `git clone https://github.com/mileidablancoprofesional-fullstack/PLSQL-C--API-Integration-Nomina`
 2. Compilar el módulo C++: `g++ -o calculator [calculador.cpp] -std=c++17 -pthread`
 3. Configurar la conexión a Oracle  y ejecutar el script SQL de los Stored Procedures.
 4. Instrucciones breves para ejecutar el endpoint PHP.
